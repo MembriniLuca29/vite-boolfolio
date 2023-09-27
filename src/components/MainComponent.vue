@@ -12,6 +12,7 @@ export default {
         .get('http://localhost:8000/api/posts')
         .then(res =>{
             console.log(res)
+            this.posts = res.data.results
         });
 
     }
