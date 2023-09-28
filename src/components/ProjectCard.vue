@@ -23,11 +23,12 @@ export default {
 <style scoped>
 .container{
     display: flex;
+    flex-wrap: wrap;
     width: 80%;
     margin: 0 auto;
 }
 .card{
-    width: 100%;
+    width: calc(100% / 3);
     margin: 20px auto;
 
 
