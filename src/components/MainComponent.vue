@@ -25,7 +25,7 @@ export default {
 <template>
 
 <div>
-    <h1>ciao main</h1>
+    <h1>Project Card</h1>
     <ProjectCard :posts="posts" />
   </div>
     
@@ -33,5 +33,9 @@ export default {
 
 <style scoped>
 
-
+h1{
+  text-align: center;
+  font-size: 3rem;
+  margin: 30px 0;
+}
 </style>
